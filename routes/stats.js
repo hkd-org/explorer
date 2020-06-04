@@ -61,7 +61,7 @@ var getHashrate = function(res) {
 }
 
 /**
-  Swipe ETZ ETH data
+  Swipe HKD ETH data
 **/
 var getEtcEth = function(res) {
   var options = [{

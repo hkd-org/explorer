@@ -1,7 +1,7 @@
 ### ETZExplorer 
 
-* Live Version: [etzscan.com](https://etzscan.com/)
-* Follow the project progress at: [ETZ Block Explorer Development](http://chain.hkd.com/) 
+* Live Version: [23.225.32.66:3010](https://23.225.32.66:3010/)
+* Follow the project progress at: [HKD Block Explorer Development](http://chain.hkd.com/) 
 
 #### Local installation
 
