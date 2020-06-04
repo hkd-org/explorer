@@ -1,14 +1,14 @@
 ### ETZExplorer 
 
 * Live Version: [etzscan.com](https://etzscan.com/)
-* Follow the project progress at: [ETZ Block Explorer Development](http://etherzero.org/) 
+* Follow the project progress at: [ETZ Block Explorer Development](http://chain.hkd.com/) 
 
 #### Local installation
 
 * Make sure you already have installed node,if not,please refered [this](https://nodejs.org/en/)
 
 ``` download codes
-git clone git@github.com:etherzero-org/explorer.git
+git clone git@github.com:hkd-org/explorer.git
 cd explorer
 npm i
 ```

@@ -6,7 +6,7 @@ require( '../db-internal.js' );
 
 var http = require('http');
 var Web3 = require('web3');
-var web3 = new Web3(new Web3.providers.HttpProvider("http://rpc.etherzero.org:8585"));
+var web3 = new Web3(new Web3.providers.HttpProvider("http://rpc.hkd.com:8585"));
 // var web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8585"));
 
 var mongoose = require( 'mongoose' );
@@ -25,7 +25,7 @@ function grabInternalTxs(batchNum, batchSize) {
     "id":' + batchNum + '}';
 
   var post_options = {
-      // host: 'rpc.etherzero.org',
+      // host: 'rpc.hkd.com',
       host: 'localhost',
       port: '8585',
       path: '/',

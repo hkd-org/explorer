@@ -451,8 +451,8 @@ var writeTransactionsToDB3 = function(blockData, eth) {
 */
 var patchBlocks3 = function() {
     // web3 = new Web3(new Web3.providers.HttpProvider('http://106.14.105.179:8585'));
-    // web3 = new Web3(new Web3.providers.HttpProvider('http://rpc.etherzero.org:80'));
-    // web3 = new Web3(new Web3.providers.HttpProvider('https://rpc.etherzero.org:443'));
+    // web3 = new Web3(new Web3.providers.HttpProvider('http://rpc.hkd.com:80'));
+    // web3 = new Web3(new Web3.providers.HttpProvider('https://rpc.hkd.com:443'));
     web3 = new Web3(new Web3.providers.HttpProvider(config3.httpProvider));
     var lastBlock = web3.eth.blockNumber;
     if(config3.patchEndBlocks == "latest"){
