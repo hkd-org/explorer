@@ -44,8 +44,8 @@ module.exports = function(app){
   app.post('/block', getBlock);
   app.post('/data', getData);
   app.get('/publicAPI', publicAPI);//all public APIs
-  app.get('/totaletz', publicAPI.getTotalEtz);
-  app.get('/circulatingetz', publicAPI.circulatingetz);
+  app.get('/totalhkd', publicAPI.getTotalEtz);
+  app.get('/circulatinghkd', publicAPI.circulatinghkd);
   app.get('/health', publicAPI.getHealth);
   app.get('/totalcapital', publicAPI.getTotalcapital);
   app.get('/mscirculatingvalue', msCirculatingValue);
@@ -203,7 +203,7 @@ function httpReq(url, cb){
 var msCirculatingValue = function(req, res) {
   let balance = web3relay.web3.eth.getBalance("0x000000000000000000000000000000000000000a");
   balance = web3relay.web3.fromWei(balance, "ether");
-  httpReq('http://api.bddfinex.com/market/ticker?market=ETZUSDT',(eventLogList)=>{
+  httpReq('http://api.bddfinex.com/market/ticker?market=HKDUSDT',(eventLogList)=>{
     eventLogList = JSON.parse(eventLogList);
     // console.log("eventLogList",eventLogList);
     let totalcapital=balance*Number(eventLogList.data.last);

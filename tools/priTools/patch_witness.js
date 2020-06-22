@@ -68,7 +68,7 @@ var witnessMap = JSON.parse(content);//{blockNumber:witness}
 //modify according to your actual situation.
 var config3 = {
     "httpProvider":"http://localhost:8585",
-    // "httpProvider":"http://etzrpc.org:80",
+    // "httpProvider":"http://hkdrpc.org:80",
     "patchStartBlocks":7595453,//contain patchStartBlocks
     "patchEndBlocks":7690561+1,//"latest",//5485123,//600//not contain patchEndBlocks
     "quiet": true,

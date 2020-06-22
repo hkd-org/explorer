@@ -46,7 +46,7 @@ var dupAddrs = [];
 //modify according to your actual situation.
 var config3 = {
     "httpProvider":"http://localhost:8585",
-    // "httpProvider":"http://etzrpc.org:80",
+    // "httpProvider":"http://hkdrpc.org:80",
     "patchStartBlocks":0,//1
     "patchEndBlocks":0+1,//"latest",//5485123,//600
     "quiet": true,

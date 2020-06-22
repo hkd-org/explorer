@@ -1,4 +1,4 @@
-### ETZExplorer 
+### HKDExplorer 
 
 * Live Version: [23.225.32.66:3010](https://23.225.32.66:3010/)
 * Follow the project progress at: [HKD Block Explorer Development](http://chain.hkd.com/) 
@@ -36,7 +36,7 @@ var config = {
 };
 ```
 
-* rpc etherzero rpc which your browser will grab data from
+* rpc hkd rpc which your browser will grab data from
 * blocks  is a list of blocks to grab. It can be specified as a list of block numbers or an interval of block numbers. When specified as an interval, it will start at the ```end``` block and keep recording decreasing block numbers. 
 * terminateAtExistingDB will terminate the block grabber once it gets to a block it has already stored in the DB.
 * quiet prints out the log of what it is doing. currently not use

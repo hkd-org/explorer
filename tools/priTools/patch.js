@@ -64,7 +64,7 @@ const METHOD_DIC = {
 //modify according to your actual situation.
 var config3 = {
     "httpProvider":"http://localhost:8585",
-    // "httpProvider":"http://etzrpc.org:80",
+    // "httpProvider":"http://hkdrpc.org:80",
     // "httpProvider":"http://13.250.204.142:8585",
     "patchStartBlocks":2591,//contain patchStartBlocks
     "patchEndBlocks":802593,//"latest",//5485123,//600//not contain patchEndBlocks
