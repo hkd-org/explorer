@@ -38,7 +38,7 @@ var logger = require('morgan');
 var bodyParser = require('body-parser');
 
 var app = express();
-app.set('port', process.env.PORT || 3010);
+app.set('port', process.env.PORT || 3002);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
