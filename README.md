@@ -1,6 +1,6 @@
 ### HKDExplorer 
 
-* Live Version: [23.225.32.66:3010](https://23.225.32.66:3010/)
+* Live Version: [explorer.hkd.com](https://explorer.hkd.com/)
 * Follow the project progress at: [HKD Block Explorer Development](http://chain.hkd.com/) 
 
 #### Local installation

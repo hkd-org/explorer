@@ -631,7 +631,7 @@ var hex2ascii = function (hexIn) {
 
 var config = {
     // "rpc": 'http://192.168.199.214:8585',//t
-    "rpc": 'http://23.225.32.66:8585',
+    "rpc": 'http://149.129.50.131:8585',
     // "rpc": 'http://hkdrpc.org:80',
     // "rpc": 'http://13.115.55.39:8585',
 
