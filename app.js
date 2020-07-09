@@ -108,6 +108,6 @@ app.use(function(err, req, res, next) {
 // web3socket(io);
 
 var http = require('http').Server(app);
-http.listen(app.get('port'), '149.129.50.131', function() {
+http.listen(app.get('port'), 'localhost', function() {
     console.log('Express server listening on port ' + app.get('port'));
 });
