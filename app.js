@@ -38,7 +38,7 @@ var logger = require('morgan');
 var bodyParser = require('body-parser');
 
 var app = express();
-app.set('port', process.env.PORT || 3002);
+app.set('port', process.env.PORT || 3010);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -108,6 +108,6 @@ app.use(function(err, req, res, next) {
 // web3socket(io);
 
 var http = require('http').Server(app);
-http.listen(app.get('port'), 'localhost', function() {
+http.listen(app.get('port'), '149.129.50.131', function() {
     console.log('Express server listening on port ' + app.get('port'));
 });
